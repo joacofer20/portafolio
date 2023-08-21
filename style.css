@@ -1,0 +1,32 @@
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(114, 112, 112);
+}
+
+.contenedor {
+    width: 60%;
+    margin: auto;
+    font-family: 'arial';
+}
+
+#img{
+    margin: auto;
+    height: 400px;
+}
+
+.imagenes {
+    margin: auto;
+    height: 100px;
+}
+
+.imagenes:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 5px 2px rgb(0, 0, 0, 0.4) );
+}
+
